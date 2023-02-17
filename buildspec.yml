@@ -9,9 +9,3 @@ phases:
     commands:
       - echo "Starting build phase"
       - echo "Cloning the GitHub repository"
-#       - git clone https://github.com/jobycxa/aws-code-pipeline.git
-#       - cd aws-code-pipeline
-#       - echo "Creating a zip file of the code"
-#       - zip -r latest_code.zip .
-#       - echo "Uploading the zip file to S3"
-#       - aws s3 cp code.zip s3://shellkode-demo-codebuild-test001/code.zip
